@@ -51,7 +51,7 @@ pipeline {
         success {
             // One or more steps need to be included within each condition's block.
             archiveArtifacts artifacts: 'target/*.war', followSymlinks: false
-            octopusDeployRelease deploymentTimeout: '', environment: 'Production', project: 'jenkins-training', releaseVersion: '0.0.38', serverId: 'cloudOcto', spaceId: 'Spaces-1', tenant: '', tenantTag: '', toolId: 'Default', variables: ''
+            octopusDeployRelease deploymentTimeout: '', environment: 'Production', project: 'jenkins-training', releaseVersion: '0.0.43', serverId: 'cloudOcto', spaceId: 'Spaces-1', tenant: '', tenantTag: '', toolId: 'Default', variables: ''
         }
     }
 }
