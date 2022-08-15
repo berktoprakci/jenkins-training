@@ -21,7 +21,7 @@
     <sonar.projectKey>jenkins-training</sonar.projectKey>
     <sonar.organization>berktoprakci</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>0c7e73f43ebd3477c554ee0b0f644bc671ffe7fc</sonar.login>
+    <sonar.login>b9e2538713c9b7790f6e4333a6e67e6ce44c9433</sonar.login>
 
 
     <!-- Generic properties -->
